@@ -31,7 +31,7 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
-      - uses: your-username/delete-old-release-artifacts@v1
+      - uses: mfaqiri/delete-old-release-artifacts
         with:
           keep-latest: "10"
           max-age-days: "90"
